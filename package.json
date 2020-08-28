@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "pm2 start index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@lhci/cli": "^0.5.0",
     "@lhci/server": "^0.5.0",
-    "pg": "^8.3.3"
+    "pg": "^8.3.3",
+    "pm2": "^4.4.1"
   }
 }
